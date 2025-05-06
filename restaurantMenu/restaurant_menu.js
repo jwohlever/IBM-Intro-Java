@@ -11,3 +11,5 @@ let dessertItem = '';
 for (let i = 0; i < dessertMenu.length; i++) {
     dessertItem += `<p>Item ${i + 1}: ${dessertMenu[i]}</p>`;}
 document.getElementById('dessertMenuItems').innerHTML = dessertItem;
+const breakfastMenu = ['Pancakes- $12', 'Eggs Benedict -$22.99', 'Oatmeal -$21.99', 'Frittata -$15'];
+
